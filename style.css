@@ -1,5 +1,11 @@
+body{
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Pacifico', cursive;
+
+}
+
 .cabecalho{
-    background-color: #383D58;
+    background-color: #f18fe1;
     color:white;
     display: flex;
     justify-content: space-around;
@@ -13,7 +19,21 @@
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
-    padding: 20px 0;
-    font-size: 25px;
-
+    padding: 24px 0;
+    font-size: 24px;
+}
+.Receitas-imagem{
+    width: 25%;
+}
+.Receitas-imagem{
+    background-image: linear-gradient(#ffffff,#d85cc3);
+    color:rgb(0, 0, 0);
+    display:flex;
+}
+.Receitas-conteudo{
+    width: 35%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
